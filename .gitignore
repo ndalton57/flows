@@ -1,0 +1,17 @@
+# Ephemeral build: downloaded JDK + compiled classes (recreated by build.ps1)
+.build/
+
+# Build output — distribute via GitHub Releases, don't commit.
+# (Covers flows.jar plus any agent/loader jars like primer.jar.)
+*.jar
+
+# Deployment target (this folder also serves as a test server)
+agents/
+
+# Editor / IDE / OS
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+claude.md

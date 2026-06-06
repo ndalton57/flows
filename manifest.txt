@@ -1,0 +1,6 @@
+Premain-Class: dev.flows.FlowsAgent
+Can-Redefine-Classes: true
+Can-Retransform-Classes: true
+Primer-Default-Config: flows.conf
+Implementation-Title: Flows
+Implementation-Version: 1.0.0
